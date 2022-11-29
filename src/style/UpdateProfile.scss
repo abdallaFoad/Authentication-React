@@ -1,0 +1,31 @@
+.main-update {
+  input{
+    width:100%;
+  }
+  .error {
+      text-align: center;
+      margin: 10px auto 0;
+      color: #ff5722;
+      border: 1px dotted #f09819;
+      padding: 0.3rem 0.6rem;
+      width: 50%;
+    }
+  .row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+    .content-img {
+      width:30%;
+      .avatarImg {
+        img {
+          width: 5rem;
+          height: 5rem;
+        }
+      }
+    }
+    .personal {
+      width:70%;
+    }
+  }
+}

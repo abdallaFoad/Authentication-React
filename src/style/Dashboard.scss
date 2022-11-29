@@ -1,0 +1,107 @@
+.main-dashboard {
+  background-color: #080710;
+  width: 100%;
+  min-height: 100vh;
+  color: #080710;
+  .container {
+    .card {
+      width: 350px;
+      background-color: #efefef;
+      border: none;
+      cursor: pointer;
+      transition: all 0.5s;
+      &:hover .image img {
+        transform: scale(1.1);
+      }
+
+      .image {
+        img {
+          transition: all 0.5s;
+        }
+      }
+      .name {
+        font-size: 22px;
+        font-weight: bold;
+      }
+      .idd {
+        font-size: 14px;
+        font-weight: 600;
+      }
+      .idd1 {
+        font-size: 12px;
+      }
+
+      .number {
+        font-size: 22px;
+        font-weight: bold;
+      }
+
+      .follow {
+        font-size: 12px;
+        font-weight: 500;
+        color: #444444;
+      }
+
+      .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1.5rem;
+        .btn1 {
+          height: 40px;
+          width: 150px;
+          border: none;
+          background-color: #080710;
+          color: #aeaeae;
+          font-size: 15px;
+          text-align: center;
+          font-size: 1.2rem;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .btn10 {
+          background-color: #f44336;
+          color: white;
+        }
+        .matched {
+          text-align: center;
+          margin: 1rem 0;
+          color: #ff5722;
+          border: 1px dotted #f09819;
+          padding: 0.3rem 0.6rem;
+        }
+      }
+      .text span {
+        font-size: 13px;
+        color: #545454;
+        font-weight: 500;
+      }
+
+      .icons i {
+        font-size: 19px;
+      }
+
+      .join {
+        font-size: 14px;
+        color: #a0a0a0;
+        font-weight: bold;
+      }
+
+      .date {
+        background-color: #ccc;
+      }
+      .social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        a svg {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}
